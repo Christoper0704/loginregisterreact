@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://loginregisterreactapi-production.up.railway.app/api/auth/";
+const API_URL = "https://loginregisterreactapi-production.up.railway.app/api/auth/";
 
 class AuthService {
   login(email: string, password: string) {
